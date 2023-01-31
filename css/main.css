@@ -249,6 +249,9 @@ img{
 }
 
 .header__title{
+  width: 650px;
+  height: 112px;
+  flex-wrap: wrap;
   padding-left: 165px;
   font-family: 'Space Mono';
   font-style: normal;
@@ -260,6 +263,8 @@ img{
 }
 
 .header__text{
+  width: 650px;
+  height: 100px;
   padding-left: 240px;
   font-family: 'Lexend Deca';
   font-style: normal;
@@ -284,7 +289,7 @@ img{
   top: 160px;
   left: -40px;
   width: 1274.5px;
-  height: 291px
+  height: 291px;
 }
 
 .opportunity__img{
@@ -302,9 +307,13 @@ img{
   padding-left: 30px;
 }
 
+.circle-img{
+  display: none;
+}
+
 .opportunity__title{
   padding-top: 40px;
-  padding-bottom: 27px;
+  padding-bottom: 30px;
   font-family: 'Space Mono';
   font-style: normal;
   font-weight: 700;
@@ -315,6 +324,8 @@ img{
 }
 
 .opportunity__text{
+  width: 350px;
+  height: 100px;  
   font-family: 'Lexend Deca';
   font-style: normal;
   font-weight: 400;
