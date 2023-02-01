@@ -179,15 +179,19 @@ img{
   text-align: center;
   color: var(--site-color2);
   background: var(--site-color);
-  border: 1px solid var(--site-color);
-  transition: 2s;
+  border: 3px solid var(--site-color);
+  transition: .1s ease-in-out;
 }
 
 .site__btn:hover{
   color: var(--site-color);
   transition: 1s;
   background-color: var(--site-color2);
-  border: 1px solid var(--site-color);
+  border: 3px solid var(--site-color);
+}
+
+.site__btn:active{
+  border: 3px solid #FCB72B;
 }
 
 /* Site-header-started */
@@ -218,6 +222,7 @@ img{
 }
 
 .header-menu__link{
+  padding-top: 20px;
   font-family: 'Space Mono';
   font-style: normal;
   font-weight: 700;
@@ -228,11 +233,13 @@ img{
 }
 
 .header-menu__link:hover{
-  color: #000;
   padding-left: 40px;
   transition: 0.5s ease;
 }
 
+.header-menu__link:active{
+  color: var(--site-color);
+}
 
 .header__btn{
   position: relative;
@@ -279,6 +286,39 @@ img{
   top: 40px;
   left: 239px;
   padding: 14px 39px 14px 39px;
+}
+
+.header-hero__btn{
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: var(--site-color2);
+  background: var(--site-color);
+  border: 3px solid var(--site-color);
+  transition: 0.5s;
+}
+
+.header-hero__btn:hover{
+  color: var(--site-color);
+  transition: 1s;
+  background-color: var(--site-color2);
+  border: 3px solid var(--site-color);
+}
+
+.header-hero__btn:active{
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: var(--site-color);
+  background: transparent;
+  border: 3px solid var(--site-color);
+  transition: .1s ease-in-out;
 }
 
 /* Site-header-end */
@@ -354,11 +394,15 @@ img{
 
 .rounds__items:nth-child(2){
   flex-direction: row-reverse; 
-  position: relative;
-  /* right: 165px; */
+}
+
+.circle-mob-img{
+  display: none;
 }
 
 .rounds__title{
+  width: 445px;
+  height: 96px;
   font-family: 'Space Mono';
   font-style: normal;
   font-weight: 700;
@@ -369,6 +413,8 @@ img{
 }
 
 .rounds__text{
+  width: 445px;
+  height: 160px;
   padding-top: 24px;
   padding-bottom: 40px;
   font-family: 'Lexend Deca';
