@@ -124,6 +124,11 @@
   --site-color3: #495567;
 }
 
+.sweet{
+  text-align: center;
+  /* font-size: 90px; */
+}
+
 /* General Css */
 
 *{
