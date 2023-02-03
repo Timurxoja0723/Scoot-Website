@@ -226,7 +226,7 @@
 
   .rounds__title{
     padding-top: 56px;
-    padding-left: 30px;
+    text-align: center;
     width: 350px;
     height: 64px;
     font-family: 'Space Mono';
@@ -240,8 +240,8 @@
   }
   
   .rounds__text{
-    padding-left: 60px;
     padding-top: 84px;
+    text-align: center;
     width: 311px;
     height: 150px;
     font-family: 'Lexend Deca';
