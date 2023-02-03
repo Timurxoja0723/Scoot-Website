@@ -206,8 +206,18 @@
   }
 
   .circle-mob-img{
-    margin-left: 10px;
+    margin-left: 35px;
     display: block;
+  }
+
+  .circle-mob-img2{
+    margin-left: -16px;
+    display: block;
+  }
+  
+  .circle-mob-img3{
+    display: block;
+    margin-left: 38px;
   }
 
   .rounds__items:nth-child(2){
@@ -230,9 +240,10 @@
   }
   
   .rounds__text{
+    padding-left: 60px;
     padding-top: 84px;
     width: 311px;
-    height: 150 px;
+    height: 150px;
     font-family: 'Lexend Deca';
     font-style: normal;
     font-weight: 400;
@@ -244,7 +255,7 @@
   
   .rounds__btn{
     position: relative;
-    top: 92px;
+    top: 120px;
     left: 70px;
     padding:  14px 44.5px 14px 43.5px;
   }
