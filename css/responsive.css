@@ -241,7 +241,7 @@
   
   .rounds__text{
     padding-top: 84px;
-    padding-left: 60px;
+    padding-left: 55px;
     text-align: center;
     width: 311px;
     height: 150px;
@@ -256,9 +256,89 @@
   
   .rounds__btn{
     position: relative;
-    top: 150px;
-    left: 100px;
+    top: 140px;
+    left: 85px;
     padding:  14px 44.5px 14px 43.5px;
+  }
+
+  /* Site-main-end */
+  /* Site-footer-started */
+
+  .sign-up__container{
+    position: relative;
+    top: 280px;
+    background-image: url(../img/footer-mob-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: 375px;
+  }
+
+  .sign-up__img{
+    display: none;
+  }
+
+  .sign-up-mob__img{
+    display: block;
+    padding-left: 12.86px;
+  }
+
+  .sign-up__title{
+    position: relative;
+    top: -20px;
+    left: -133px;
+    width: 455px;
+    height: 64px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -1.42857px;
+    color:var(--site-color2);
+  }
+
+  .sign-up__element{
+    position: relative;
+    top: 40px;
+    left: -745px;
+    display: flex;
+  }
+
+  .footer-menu__conatiner{
+    position: relative;
+    top: 276px;
+    width: 375px;
+    height: 438px; 
+    display: block;
+    padding-top: 35px;
+    padding-left: 168px;
+    background-image: url(../img/footer-mob-img.png);
+    background-repeat: no-repeat;
+    /* background-color:#333A44; */
+  }
+
+  .footer__logo{
+    position: relative;
+    top: 29px;
+    left: -36px;
+  }
+
+  .footer__menu{
+    position: relative;
+    top: 41.44px;
+    left: -104px;
+    display: block;
+  }
+
+  .footer-menu__item{
+    padding-top: 16px;
+  }
+
+  .footer__lists{
+    position: relative;
+    top: 100px;
+    left: -612px;
+    display: flex;
   }
 }
 

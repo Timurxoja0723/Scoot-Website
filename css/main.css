@@ -452,7 +452,9 @@ img{
 
 .sign-up__title{
   padding-top: 102px;
-  padding-left: 165px;
+  padding-left: 145px;
+  width: 600px;
+  height: 96px;
   font-family: 'Space Mono';
   font-style: normal;
   font-weight: 700;
@@ -476,13 +478,11 @@ img{
   border-radius: 4px;
 }
 
-.sign-up__icon{
-  position: relative;
-  top: 14px;
-  left: 16px;
+.sign-up-mob__img{
+  display: none ;
 }
 
-.sign-up__items span{
+/* .sign-up__items span{
   padding-top: 8px;
   padding-left: 32px;
   font-family: 'Space Mono';
@@ -492,7 +492,7 @@ img{
   line-height: 15px;
   letter-spacing: -0.446429px;
   color: var(--site-color3);
-}
+} */
 
 .icon__title{
   padding-left: 42px;
