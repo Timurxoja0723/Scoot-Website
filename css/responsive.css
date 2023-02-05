@@ -264,28 +264,26 @@
   /* Site-main-end */
   /* Site-footer-started */
 
-  .sign-up__container{
+  .sign-up__section{
     position: relative;
-    top: 280px;
+    top: 270px;
+    width: 375px;
+    height: 758px;
+    margin: 0 auto;
+    padding: 0 20px;
     background-image: url(../img/footer-mob-bg-img.png);
     background-repeat: no-repeat;
-    background-size: 375px;
   }
-
-  .sign-up__img{
-    display: none;
-  }
-
-  .sign-up-mob__img{
+  
+  .sign-up__container{
     display: block;
-    padding-left: 12.86px;
   }
-
+  
   .sign-up__title{
     position: relative;
-    top: -20px;
-    left: -133px;
-    width: 455px;
+    top: -17px;
+    left: -138px;
+    width:  311px;
     height: 64px;
     font-family: 'Space Mono';
     font-style: normal;
@@ -294,52 +292,70 @@
     line-height: 32px;
     text-align: center;
     letter-spacing: -1.42857px;
-    color:var(--site-color2);
+    color: #FFFFFF;
   }
-
+  
   .sign-up__element{
     position: relative;
-    top: 40px;
-    left: -745px;
+    top: ;
+    left: -430px;
     display: flex;
+  }
+  
+  .sign-up__img{
+    margin-left: 18px;
+  }
+  
+  .sign-up__img{
+    display: none;
+  }
+  
+  .sign-up-mob__img{
+    display: block;
+    margin-left: 12px;
   }
 
   .footer-menu__conatiner{
     position: relative;
-    top: 276px;
-    width: 375px;
-    height: 438px; 
+    top: -101px;
+    left: -31px;
     display: block;
-    padding-top: 35px;
-    padding-left: 168px;
-    background-image: url(../img/footer-mob-img.png);
-    background-repeat: no-repeat;
-    /* background-color:#333A44; */
   }
-
+  
   .footer__logo{
-    position: relative;
-    top: 29px;
-    left: -36px;
+    width: 107.82px;
+    height: 28.56px;
   }
-
+  
   .footer__menu{
     position: relative;
-    top: 41.44px;
-    left: -104px;
+    top: 31.44px;
+    left: -95px;
+    text-align: center;
     display: block;
   }
-
+  
   .footer-menu__item{
     padding-top: 16px;
   }
-
+  
+  .footer-menu__link{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+  }
+  
   .footer__lists{
     position: relative;
-    top: 100px;
-    left: -612px;
-    display: flex;
+    top: 112.25px;
+    left: -550px;
   }
+
+  /* Site-footer-end */
+  
 }
 
 
